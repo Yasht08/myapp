@@ -5,15 +5,13 @@ import Man from "./Man";
 class Person extends Component {
   constructor(props){
    super(props);
-   this.props=props;
    }
     render(){
         return(
             <div>
            <div>
             <i>
-                Dear , {this.props.name}, {this.props.age} years , 
-                Welcome 
+                Hello {this.props.name}
                 </i></div> 
             </div>
         );
